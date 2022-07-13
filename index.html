@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Profit or Loss</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://mdbootstrap.com/docs/standard/navigation/footer/"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+
+        <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet"> -->
+
+</head>
+<body>
+
+    <center>
+    <div class="navigation">
+
+        <div class="heading">
+            <h1>Stock Profit or Loss ?</h1>
+            <!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat ipsam non doloribus! Voluptas laborum quasi tempore dicta omnis aut nostrum incidunt facere, vel numquam necessitatibus minima cum rem ut blanditiis.</p> -->
+    
+        </div>
+    </div>
+    </center>
+
+    <!-- <img src="./graph44.png" alt=""> -->
+
+    <center>
+    <div class="container1" >
+
+        <!-- <img src="./cashImg22.webp" width="20%" height="20%" alt="cash img"> -->
+
+        <div class="inp1">
+            <h5>Buy Price</h5>
+           <input type="number" id="buyprice" class="form-control" placeholder="Enter Buy Price" required/>
+
+            <button type="button" id="btnNext" class="btn-grad" onclick="document.querySelector('.inp2').style.display='block'">Next</button>
+            
+        </div>
+
+        <div class="inp2" style="display:none;">
+            <h5>Quantity</h5>
+           <input type="number" id="quantity" class="form-control" placeholder="Enter  Quantity" required/>
+
+            <button type="button" id="btnNext" class="btn-grad" onclick="document.querySelector('.inp3').style.display='block'">Next</button>
+            
+        </div>
+
+        <div class="inp3" style="display:none;">
+            <h5>Current Stock Price</h5>
+           <input type="number" id="stockPrice" class="form-control" placeholder="Enter Current Stock Price" required />
+
+            <button type="button" id="btnSubmit" class="btn-grad" style="display: block; ">Submit</button>
+        </div>
+
+        <h4 class="outputArea"></h4>
+    </div>
+    </center> 
+    <pre>
+
+    </pre>
+    
+    <div class="footer">
+        <!-- this is footer -->
+        <img src="./fb.svg" width="3%" height="3%" alt="">
+        <img src="./insta.svg" width="3%" height="3%" alt="">
+        <img src="./twitter.svg" width="3%" height="3%" alt="">
+        <img src="./linkedin.svg" width="3%" height="3%" alt="">
+
+        <!-- <h6 style="color: white; display:block">Copyright ©2022 Sayali Baviskar</h6>  -->
+    </div>
+
+
+</body>
+
+<script type="text/javascript" src="./script.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet">
+        
+</html>
